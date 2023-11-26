@@ -8,7 +8,7 @@ class Message {
   final bool unread;
 
   Message({
-     required this.sender, 
+    required this.sender, 
     required this.time, 
     required this.text, 
     required this.isLiked, 
@@ -31,7 +31,7 @@ final User currentUser = User(
 final User  greg = User(
     id: 1, 
     name: 'Greg', 
-    imageUrl: 'assets/pic2.jpg', 
+    imageUrl: 'assets/pic1.jpg', 
     );
 final User james = User(
       id: 2, 
